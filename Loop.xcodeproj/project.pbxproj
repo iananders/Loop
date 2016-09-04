@@ -133,7 +133,6 @@
 		43F41C351D3B623800C11ED6 /* ChartPointsTouchHighlightLayerViewCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F41C341D3B623800C11ED6 /* ChartPointsTouchHighlightLayerViewCache.swift */; };
 		43F41C371D3BF32400C11ED6 /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F41C361D3BF32400C11ED6 /* UIAlertController.swift */; };
 		43F4EF1D1BA2A57600526CE1 /* DiagnosticLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F4EF1C1BA2A57600526CE1 /* DiagnosticLogger.swift */; };
-		43F5C2C91B929C09003EB13D /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F5C2C81B929C09003EB13D /* HealthKit.framework */; };
 		43F5C2DB1B92A5E1003EB13D /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F5C2DA1B92A5E1003EB13D /* SettingsTableViewController.swift */; };
 		43F78D261C8FC000002152D1 /* DoseMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F78D251C8FC000002152D1 /* DoseMath.swift */; };
 		43F78D4C1C914197002152D1 /* CarbKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F78D481C914197002152D1 /* CarbKit.framework */; };
@@ -142,6 +141,7 @@
 		43F78D4F1C914197002152D1 /* LoopKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43F78D4B1C914197002152D1 /* LoopKit.framework */; };
 		4D3B40041D4A9E1A00BC6334 /* G4ShareSpy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3B40021D4A9DFE00BC6334 /* G4ShareSpy.framework */; };
 		4D5B7A4B1D457CCA00796CA9 /* GlucoseG4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5B7A4A1D457CCA00796CA9 /* GlucoseG4.swift */; };
+		9A4963D61D7A1F5B001157C7 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4963D51D7A1F5B001157C7 /* HealthKit.framework */; };
 		C10428971D17BAD400DD539A /* NightscoutUploadKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10428961D17BAD400DD539A /* NightscoutUploadKit.framework */; };
 		C17884631D51A7A400405663 /* BatteryIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17884621D51A7A400405663 /* BatteryIndicator.swift */; };
 		C18C8C511D5A351900E043FB /* NightscoutDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18C8C501D5A351900E043FB /* NightscoutDataManager.swift */; };
@@ -355,7 +355,6 @@
 		43F41C341D3B623800C11ED6 /* ChartPointsTouchHighlightLayerViewCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartPointsTouchHighlightLayerViewCache.swift; sourceTree = "<group>"; };
 		43F41C361D3BF32400C11ED6 /* UIAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertController.swift; sourceTree = "<group>"; };
 		43F4EF1C1BA2A57600526CE1 /* DiagnosticLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagnosticLogger.swift; sourceTree = "<group>"; };
-		43F5C2C81B929C09003EB13D /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		43F5C2D41B92A4A6003EB13D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43F5C2D61B92A4DC003EB13D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43F5C2DA1B92A5E1003EB13D /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SettingsTableViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -366,6 +365,7 @@
 		43F78D4B1C914197002152D1 /* LoopKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LoopKit.framework; path = Carthage/Build/iOS/LoopKit.framework; sourceTree = "<group>"; };
 		4D3B40021D4A9DFE00BC6334 /* G4ShareSpy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = G4ShareSpy.framework; path = Carthage/Build/iOS/G4ShareSpy.framework; sourceTree = "<group>"; };
 		4D5B7A4A1D457CCA00796CA9 /* GlucoseG4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlucoseG4.swift; path = Loop/Models/GlucoseG4.swift; sourceTree = SOURCE_ROOT; };
+		9A4963D51D7A1F5B001157C7 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		C10428961D17BAD400DD539A /* NightscoutUploadKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NightscoutUploadKit.framework; path = Carthage/Build/iOS/NightscoutUploadKit.framework; sourceTree = "<group>"; };
 		C17884621D51A7A400405663 /* BatteryIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryIndicator.swift; sourceTree = "<group>"; };
 		C18C8C501D5A351900E043FB /* NightscoutDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NightscoutDataManager.swift; sourceTree = "<group>"; };
@@ -388,9 +388,9 @@
 				43F78D4C1C914197002152D1 /* CarbKit.framework in Frameworks */,
 				4D3B40041D4A9E1A00BC6334 /* G4ShareSpy.framework in Frameworks */,
 				43F78D4D1C914197002152D1 /* GlucoseKit.framework in Frameworks */,
-				43F5C2C91B929C09003EB13D /* HealthKit.framework in Frameworks */,
 				43F78D4E1C914197002152D1 /* InsulinKit.framework in Frameworks */,
 				43F78D4F1C914197002152D1 /* LoopKit.framework in Frameworks */,
+				9A4963D61D7A1F5B001157C7 /* HealthKit.framework in Frameworks */,
 				43CA93371CB98079000026B5 /* MinimedKit.framework in Frameworks */,
 				43523EDB1CC35083001850F1 /* RileyLinkKit.framework in Frameworks */,
 				43B371881CE597D10013C5A6 /* ShareClient.framework in Frameworks */,
@@ -687,6 +687,7 @@
 		968DCD53F724DE56FFE51920 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9A4963D51D7A1F5B001157C7 /* HealthKit.framework */,
 				434FB6451D68F1CD007B9C70 /* Amplitude.framework */,
 				C10428961D17BAD400DD539A /* NightscoutUploadKit.framework */,
 				43B371871CE597D10013C5A6 /* ShareClient.framework */,
@@ -695,7 +696,6 @@
 				43EDDBF51C361D24007D89B5 /* CommonCrypto.framework.dSYM */,
 				4D3B40021D4A9DFE00BC6334 /* G4ShareSpy.framework */,
 				43F78D491C914197002152D1 /* GlucoseKit.framework */,
-				43F5C2C81B929C09003EB13D /* HealthKit.framework */,
 				43F78D4A1C914197002152D1 /* InsulinKit.framework */,
 				43F78D4B1C914197002152D1 /* LoopKit.framework */,
 				43CA93361CB98079000026B5 /* MinimedKit.framework */,
